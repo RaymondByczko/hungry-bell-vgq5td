@@ -8,7 +8,7 @@ export default function App() {
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
       <Gallery></Gallery>
-      <Time timeObject={{ h: 12 }}></Time>
+      <Time timeObject={{ h: 12, m: 11 }}></Time>
     </div>
   );
 }
