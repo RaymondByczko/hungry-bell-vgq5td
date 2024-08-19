@@ -15,6 +15,7 @@ export default function App() {
       <Planet PlanetDetails={{ name: "Mercury", diameter: 4800 }}></Planet>
       <Planet PlanetDetails={{ name: "Venus", diameter: 12000 }}></Planet>
       <Burger></Burger>
+      <Burger burgerJoint="Hungry Jacks"></Burger>
     </div>
   );
 }
