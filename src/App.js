@@ -12,8 +12,20 @@ export default function App() {
       <Gallery></Gallery>
       <Time timeObject={{ h: 12, m: 11 }}></Time>
       <Time></Time>
-      <Planet PlanetDetails={{ name: "Mercury", diameter: 4800 }}></Planet>
-      <Planet PlanetDetails={{ name: "Venus", diameter: 12000 }}></Planet>
+      <Planet
+        PlanetDetails={{
+          name: "Mercury",
+          diameter: 4800,
+          className: "HotPlanet",
+        }}
+      ></Planet>
+      <Planet
+        PlanetDetails={{
+          name: "Venus",
+          diameter: 12000,
+          className: "WarmPlanet",
+        }}
+      ></Planet>
       <Burger></Burger>
       <Burger burgerJoint="Hungry Jacks"></Burger>
     </div>
