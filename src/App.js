@@ -2,6 +2,7 @@ import "./styles.css";
 import Gallery from "./Gallery";
 import Time from "./Time";
 import Planet from "./Planet";
+import Burger from "./Burger";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Time></Time>
       <Planet PlanetDetails={{ name: "Mercury", diameter: 4800 }}></Planet>
       <Planet PlanetDetails={{ name: "Venus", diameter: 12000 }}></Planet>
+      <Burger></Burger>
     </div>
   );
 }
