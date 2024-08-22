@@ -3,6 +3,7 @@ import Gallery from "./Gallery";
 import Time from "./Time";
 import Planet from "./Planet";
 import Burger from "./Burger";
+import MyButton from "./MyButton";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
       ></Planet>
       <Burger></Burger>
       <Burger burgerJoint="Hungry Jacks"></Burger>
+      <MyButton butText="Workhard"></MyButton>
     </div>
   );
 }
