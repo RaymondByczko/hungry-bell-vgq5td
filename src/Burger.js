@@ -2,7 +2,7 @@ const burgerDetails = {
   theme: {
     backgroundColor: "coral",
     border: "double",
-    fontSize: "60px",
+    fontSize: "20px",
   },
 };
 export default function Burger({ burgerJoint = "Any burger place" }) {
