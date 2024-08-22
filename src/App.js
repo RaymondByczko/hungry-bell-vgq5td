@@ -4,6 +4,7 @@ import Time from "./Time";
 import Planet from "./Planet";
 import Burger from "./Burger";
 import MyButton from "./MyButton";
+import PanelMyButton from "./PanelMyButton";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
       <Burger></Burger>
       <Burger burgerJoint="Hungry Jacks"></Burger>
       <MyButton butText="Workhard"></MyButton>
+      <PanelMyButton></PanelMyButton>
     </div>
   );
 }
